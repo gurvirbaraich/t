@@ -1,5 +1,6 @@
 {
-  "name": "meditation_app",
+  "name": "quikzle",
+  "slug": "quikzle",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -9,10 +10,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-community/datetimepicker": "6.7.3",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
     "expo": "~48.0.5",
+    "expo-font": "~11.1.1",
+    "expo-secure-store": "~12.1.1",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
-    "react-native": "0.71.3"
+    "react-countdown-circle-timer": "^3.1.0",
+    "react-native": "0.71.3",
+    "react-native-countdown-circle-timer": "^3.1.0",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-modal-datetime-picker": "^14.0.1",
+    "react-native-onboarding-swiper": "^1.2.0",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-screens": "~3.20.0",
+    "react-native-svg": "13.4.0",
+    "styled-components": "5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
